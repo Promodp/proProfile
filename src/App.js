@@ -1,6 +1,8 @@
 
 import React, { Component } from 'react'
-
+import { } from 'antd';
+import Home from '../src/Components/home'
+import './App.css';
 export default class App extends Component {
   constructor(props) {
     super(props)
@@ -15,9 +17,9 @@ export default class App extends Component {
 
   render() {
     return (
-      <>
-        My Profile
-      </>
+      <div className="App">
+        <Home />
+      </div>
     )
   }
 }

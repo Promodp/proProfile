@@ -1,0 +1,9 @@
+@import '~antd/dist/antd.css';
+
+
+
+.App {
+    min-width: 100vh;
+    min-height: 100vh;
+    background: linear-gradient( to right top, #65dfc9, #6cdbeb);
+}
