@@ -9,12 +9,22 @@ export default class Home extends Component {
 
         }
     }
+
     render() {
+        const color1 = `rgba(255, 255, 255, 0.7)`;
+        const color2 = `rgba(255, 255, 255, 0.3)`;
+
+        const cardStyle = {
+            minHeight: '80vh',
+            minWidth: '30vh',
+            background: `linear-gradient(to right bottom, ${color1}, ${color2})`,
+        }
+
         return (
             <div className='home'>
                 <Row>
                     <Col span={1}>
-                        pr
+                        <Card style={cardStyle}></Card>
                     </Col>
                     <Col span={6}>
                         sss
