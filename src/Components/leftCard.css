@@ -1,0 +1,33 @@
+.left-card {
+    height: 90vh;
+    width: 17rem;
+    margin-top: -27px;
+    margin-left: -25px;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.1));
+}
+
+.image-style {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin-left: 3rem;
+}
+
+.image-title {
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: 36px;
+    margin-top: 7px;
+    color: currentColor;
+}
+
+.text-style {
+    font-size: 17px;
+    color: cadetblue;
+    margin-top: 15px;
+}
+
+.main-class {
+    margin-left: 2rem;
+    margin-top: 3rem;
+}

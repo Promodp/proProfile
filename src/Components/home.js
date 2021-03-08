@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Card, Row, Col } from 'antd';
-import './home.css';
+import Detail from './detail';
+import LeftCard from './leftCard';
 export default class Home extends Component {
     constructor(props) {
         super(props)
@@ -16,24 +17,37 @@ export default class Home extends Component {
 
         const cardStyle = {
             minHeight: '80vh',
-            minWidth: '30vh',
+            minWidth: '90vh',
+            marginTop: '30px',
             background: `linear-gradient(to right bottom, ${color1}, ${color2})`,
         }
-
         return (
             <div className='home'>
-                <Row>
+                <Row className='home-card'>
                     <Col span={1}>
-                        <Card style={cardStyle}></Card>
                     </Col>
-                    <Col span={6}>
-                        sss
-                    </Col>
-                    <Col span={16}>
-                        ss
+                    <Col span={22}>
+                        <Card style={cardStyle}>
+                            <Row>
+                                <Col span={23}>
+                                    <Row>
+                                        <Col span={8}>
+                                            <LeftCard />
+                                        </Col>
+                                        <Col span={1}>
+                                        </Col>
+                                        <Col span={15}>
+                                            <Detail />
+                                        </Col>
+                                    </Row>
+
+                                </Col>
+                                <Col span={1}>
+                                </Col>
+                            </Row>
+                        </Card>
                     </Col>
                     <Col span={1}>
-                        ss
                     </Col>
                 </Row>
             </div>
