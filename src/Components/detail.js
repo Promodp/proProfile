@@ -263,7 +263,8 @@ Engineering)</Row>
                         </Row>
                         <Row>
                             <Col span={2} style={{ fontSize: '32px' }}>
-                                <i class="fa fa-address" ></i>
+                                <i class="fa fa-address-card"></i>
+
                             </Col>
                             <Col span={22}>
                                 <span>RM Reddy PG for gents,

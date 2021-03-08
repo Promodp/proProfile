@@ -52,7 +52,18 @@ export default class Home extends Component {
                     </Col>
                 </Row>
                 <Row className="footer">
-                    Footer
+                    <Col span={10} className='footer-contact'>
+                        <Row>
+                            Get In Touch
+                        </Row>
+                        <Row>
+                            <div style={{ marginTop: '6rem', marginLeft: '-5rem' }}>
+                                <i class="fa fa-envelope" style={{ fontSize: '32px' }}></i>
+                                <i class="fa fa-phone" style={{ fontSize: '32px', marginLeft: '2rem' }}></i>
+                                <i class="fa fa-linkedin" style={{ fontSize: '32px', marginLeft: '2rem' }}></i>
+                            </div>
+                        </Row>
+                    </Col>
                 </Row>
             </div>
         )

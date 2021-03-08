@@ -4,3 +4,9 @@
     background: darkcyan;
     margin-top: 2rem;
 }
+
+.footer-contact {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
