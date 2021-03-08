@@ -31,7 +31,7 @@ export default class Detail extends Component {
             <Row>
                 <Row className="about-me">
                     <Col span={24}>
-                        <Row>
+                        <Row id='about'>
                             <h3 className="about">About Me</h3>
                         </Row>
                         <Row>
@@ -41,7 +41,7 @@ export default class Detail extends Component {
                 </Row>
                 <Row>
                     <Col span={24} className='detailStyle'>
-                        <Row>
+                        <Row id='experience'>
                             <h3 className="experience">Experience</h3>
                         </Row>
                         <Row>
@@ -66,7 +66,7 @@ export default class Detail extends Component {
                                 </Row>
                             </Card>
                         </Row>
-                        <Row>
+                        <Row id='project'>
                             <h3 className="experience">Projects</h3>
                         </Row>
                         <Row>
@@ -117,7 +117,7 @@ export default class Detail extends Component {
                 </Row>
                 <Row>
                     <Col span={24}>
-                        <Row>
+                        <Row id='skill'>
                             <h3 className="skill">Skills</h3>
                         </Row>
                         <Row>
@@ -162,7 +162,7 @@ export default class Detail extends Component {
                 </Row>
                 <Row>
                     <Col span={24}>
-                        <Row>
+                        <Row id='award'>
                             <h3 className="skill">Awards</h3>
                         </Row>
                         <Row>
@@ -196,7 +196,7 @@ the study as well as sports.</Row>
                 </Row>
                 <Row>
                     <Col span={24}>
-                        <Row>
+                        <Row id='education'>
                             <h3 className="skill">Education</h3>
                         </Row>
                         <Row>
@@ -234,7 +234,7 @@ Engineering)</Row>
                 </Row>
                 <Row>
                     <Col span={24}>
-                        <Row>
+                        <Row id='contact'>
                             <h3 className="skill">Contact</h3>
                         </Row>
                         <Row>

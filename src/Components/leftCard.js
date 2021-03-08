@@ -3,6 +3,7 @@ import { Row, Col, Card } from 'antd'
 import './leftCard.css';
 import Image from '../Photo.jpg';
 import 'font-awesome/css/font-awesome.min.css';
+import { Link } from 'react-scroll'
 export default class Leftcard extends Component {
     constructor(props) {
         super(props)
@@ -33,7 +34,7 @@ export default class Leftcard extends Component {
                             </Col>
 
                             <Col span={20}>
-                                <span className="text-style">About Me</span>
+                                <Link activeClass="active" to="about" spy={true} smooth={true}> <span className="text-style">About Me</span></Link>
                             </Col>
                         </Row>
 
@@ -43,7 +44,8 @@ export default class Leftcard extends Component {
                             </Col>
 
                             <Col span={20}>
-                                <span className="text-style">Experience</span>
+                                <Link to="experience" spy={true} smooth={true}>   <span className="text-style">Experience</span></Link>
+
                             </Col>
                         </Row>
                         <Row>
@@ -52,7 +54,7 @@ export default class Leftcard extends Component {
                             </Col>
 
                             <Col span={20}>
-                                <span className="text-style">Project</span>
+                                <Link to="project" spy={true} smooth={true}> <span className="text-style">Project</span></Link>
                             </Col>
 
                         </Row>
@@ -62,7 +64,8 @@ export default class Leftcard extends Component {
                             </Col>
 
                             <Col span={20}>
-                                <span className="text-style">Skills</span>
+                                <Link to="skill" spy={true} smooth={true}><span className="text-style">Skills</span></Link>
+
                             </Col>
 
                         </Row>
@@ -72,7 +75,8 @@ export default class Leftcard extends Component {
                             </Col>
 
                             <Col span={20}>
-                                <span className="text-style">Awards</span>
+                                <Link to="award" spy={true} smooth={true}><span className="text-style">Awards</span></Link>
+
                             </Col>
 
                         </Row>
@@ -82,7 +86,8 @@ export default class Leftcard extends Component {
                             </Col>
 
                             <Col span={20}>
-                                <span className="text-style">Education</span>
+                                <Link to="education" spy={true} smooth={true}><span className="text-style">Education</span></Link>
+
                             </Col>
 
                         </Row>
@@ -92,7 +97,8 @@ export default class Leftcard extends Component {
                             </Col>
 
                             <Col span={20}>
-                                <span className="text-style">Contact</span>
+                                <Link to="contact" spy={true} smooth={true}> <span className="text-style">Contact</span></Link>
+
                             </Col>
 
                         </Row>
