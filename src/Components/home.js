@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Card, Row, Col } from 'antd';
 import Detail from './detail';
 import LeftCard from './leftCard';
+import './home.css';
 export default class Home extends Component {
     constructor(props) {
         super(props)
@@ -49,6 +50,9 @@ export default class Home extends Component {
                     </Col>
                     <Col span={1}>
                     </Col>
+                </Row>
+                <Row className="footer">
+                    Footer
                 </Row>
             </div>
         )
