@@ -64,9 +64,12 @@ export default class Home extends Component {
                             </div>
                         </Row>
                     </Col>
-                    <Col span={12}>
-                        <Row>Get The Code here</Row>
-                        <Row>https://github.com/Promodp/proProfile</Row>
+                    <Col span={12} className='get-code'>
+                        <Row>Get The Code here:</Row>
+                        <Row > <a style={{
+                            color: 'slateblue', marginTop: ' 68px',
+                            marginLeft: '-121px'
+                        }} href="https://github.com/Promodp/proProfile" target="_blank">Click here to get the code </a></Row>
                     </Col>
                 </Row>
             </div>

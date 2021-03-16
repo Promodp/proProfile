@@ -25,8 +25,19 @@
 }
 
 .about,
-.experience, .skill {
+.experience,
+.skill {
     height: 62px;
     font-size: 26px;
     font-weight: 800;
+}
+
+.duration {
+    font-size: 18px;
+    color: cadetblue;
+    margin-bottom: 1rem;
+}
+
+.skill-label {
+    margin-left: 21px;
 }
