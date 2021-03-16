@@ -14,11 +14,14 @@ export default class Leftcard extends Component {
     }
 
     render() {
+        const rowStyle = {
+            height: '50px',
+        }
         return (
             <Row>
                 <Col span={24} className='left-card'>
                     <div className="main-class">
-                        <Row className="image">
+                        <Row className="image" >
                             <Col span={24}>
                                 <Row>
                                     <img src={Image} className="image-style" alt='profile'></img>
@@ -26,11 +29,14 @@ export default class Leftcard extends Component {
                                 <Row>
                                     <span className="image-title">Promod Kr. Pandey</span>
                                 </Row>
+                                <Row>
+                                    <span className="image-title-1">Software Developer</span>
+                                </Row>
                             </Col>
                         </Row>
-                        <Row >
+                        <Row style={rowStyle} >
                             <Col span={4}>
-                                <i class="fa fa-user" style={{ fontSize: '3rem', color: 'darkcyan' }}></i>
+                                <i class="fa fa-user" style={{ fontSize: '2rem', color: 'darkcyan' }}></i>
                             </Col>
 
                             <Col span={20}>
@@ -38,7 +44,7 @@ export default class Leftcard extends Component {
                             </Col>
                         </Row>
 
-                        <Row>
+                        <Row style={rowStyle}>
                             <Col span={4}>
                                 <i class="fa fa-tasks" style={{ fontSize: '36px', color: 'darkcyan' }}></i>
                             </Col>
@@ -48,9 +54,9 @@ export default class Leftcard extends Component {
 
                             </Col>
                         </Row>
-                        <Row>
+                        <Row style={rowStyle}>
                             <Col span={4}>
-                                <i class="fa fa-address-book" style={{ fontSize: '3rem', color: 'darkcyan' }}></i>
+                                <i class="fa fa-address-book" style={{ fontSize: '2rem', color: 'darkcyan' }}></i>
                             </Col>
 
                             <Col span={20}>
@@ -58,9 +64,9 @@ export default class Leftcard extends Component {
                             </Col>
 
                         </Row>
-                        <Row>
+                        <Row style={rowStyle}>
                             <Col span={4}>
-                                <i class="fa fa-user" style={{ fontSize: '3rem', color: 'darkcyan' }}></i>
+                                <i class="fa fa-line-chart" style={{ fontSize: '2rem', color: 'darkcyan' }}></i>
                             </Col>
 
                             <Col span={20}>
@@ -69,9 +75,9 @@ export default class Leftcard extends Component {
                             </Col>
 
                         </Row>
-                        <Row>
+                        <Row style={rowStyle}>
                             <Col span={4}>
-                                <i class="fa fa-star" style={{ fontSize: '3rem', color: 'darkcyan' }}></i>
+                                <i class="fa fa-star" style={{ fontSize: '2rem', color: 'darkcyan' }}></i>
                             </Col>
 
                             <Col span={20}>
@@ -80,20 +86,20 @@ export default class Leftcard extends Component {
                             </Col>
 
                         </Row>
-                        <Row>
+                        <Row style={rowStyle}>
                             <Col span={4}>
-                                <i class="fa fa-user" style={{ fontSize: '3rem', color: 'darkcyan' }}></i>
+                                <i class="fa fa-book" style={{ fontSize: '2rem', color: 'darkcyan' }}></i>
                             </Col>
-
+                            {/* <i class="fas fa-book"></i> */}
                             <Col span={20}>
                                 <Link to="education" spy={true} smooth={true}><span className="text-style">Education</span></Link>
 
                             </Col>
 
                         </Row>
-                        <Row>
+                        <Row style={rowStyle}>
                             <Col span={4}>
-                                <i class="fa fa-user" style={{ fontSize: '3rem', color: 'darkcyan' }}></i>
+                                <i class="fa fa-phone" style={{ fontSize: '2rem', color: 'darkcyan' }}></i>
                             </Col>
 
                             <Col span={20}>

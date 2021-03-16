@@ -64,6 +64,10 @@ export default class Home extends Component {
                             </div>
                         </Row>
                     </Col>
+                    <Col span={12}>
+                        <Row>Get The Code here</Row>
+                        <Row>https://github.com/Promodp/proProfile</Row>
+                    </Col>
                 </Row>
             </div>
         )

@@ -1,12 +1,11 @@
 .about {
-    height: 42px;
+
     width: 117vh;
     padding: 10px 10px;
     background: darkcyan;
 }
 
 .experience {
-    height: 42px;
     width: 117vh;
     padding: 10px 10px;
     background: darkcyan;
@@ -23,4 +22,11 @@
     padding: 10px 10px;
     background: darkcyan;
     margin-top: 3rem;
+}
+
+.about,
+.experience, .skill {
+    height: 62px;
+    font-size: 26px;
+    font-weight: 800;
 }

@@ -35,7 +35,7 @@ export default class Detail extends Component {
                             <h3 className="about">About Me</h3>
                         </Row>
                         <Row>
-                            Hi I am Promd. I am innovative Front End Developer with 2+ years experience building and maintaining responsive websites for various clients. Proficient in ReactJS, JavaScript, HTML, and CSS, plus modern libraries and frameworks.
+                            Hi I am Promod. I am innovative Front End Developer with 2+ years experience building and maintaining responsive websites for various clients. Proficient in ReactJS, JavaScript, HTML, and CSS, plus modern libraries and frameworks.
                         </Row>
                     </Col>
                 </Row>
@@ -47,8 +47,11 @@ export default class Detail extends Component {
                         <Row>
                             <Card style={card1} title='Nineleaps Technology Pvt Ltd' extra='Software developer'>
                                 <Row>
-                                    <span> 1. Have experience in designing and developing 2.web-based applications for healthcare, Online 3. learning platforms, Content Management 4. systems, and the real estate industry. 5. Handled projects for various clients like Mirable Health Care, Total Environment, MemberSuite, and Spry. 6. Worked on Nineleaps Product, APNA-IAS (e-learning platform for IAS aspirants ).
-    </span>
+                                    <ul>
+                                        <li>Have experience in designing and developing web-based applications for healthcare, Online learning platforms, Content Management systems, and the real estate industry.</li>
+                                        <li>Handled projects for various clients like Mirable Health Care, Total Environment, MemberSuite, and Spry.</li>
+                                        <li>Worked on Nineleaps Product, APNA-IAS (e-learning platform for IAS aspirants ).</li>
+                                    </ul>
                                 </Row>
                                 <Row>
 
@@ -56,10 +59,14 @@ export default class Detail extends Component {
                             </Card>
                         </Row>
                         <Row>
-                            <Card style={card1} title='Nineleaps Technology Pvt Ltd' extra='Software developer'>
+                            <Card style={card1} title='Nineleaps Technology Pvt Ltd' extra='Software developer Trainee'>
                                 <Row>
-                                    <span> 1. Have experience in designing and developing 2.web-based applications for healthcare, Online 3. learning platforms, Content Management 4. systems, and the real estate industry. 5. Handled projects for various clients like Mirable Health Care, Total Environment, MemberSuite, and Spry. 6. Worked on Nineleaps Product, APNA-IAS (e-learning platform for IAS aspirants ).
-    </span>
+                                    <ul>
+                                        <li>During the internship, provided with training on ReactJs, NodeJs, Git,Jira and Agile Process.</li>
+                                        <li>Learned JavaScript, Rest APIs(Axios), typescript and enzymes(unit test cases)</li>
+
+                                        <li>Woked on a client project</li>
+                                    </ul>
                                 </Row>
                                 <Row>
 
