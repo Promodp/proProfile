@@ -27,10 +27,17 @@ export default class Detail extends Component {
             marginTop: '30px',
             background: `linear-gradient(to right bottom, ${color2}, ${color1})`,
         }
+        const mobileCard = {
+            minWidth: '22vh',
+            minHeight: '10rem',
+            marginTop: '30px',
+            background: `linear-gradient(to right bottom, ${color2}, ${color1})`,
+        }
+        const cardFinalStyle = window.innerWidth > 1365 ? card1 : mobileCard;
         return (
             <Row>
                 <Row className="about-me">
-                    <Col span={24}>
+                    <Col xs={{ span: 16 }} sm={{ span: 19 }} md={{ span: 24 }} lg={{ span: 24 }}>
                         <Row id='about'>
                             <h3 className="about">About Me</h3>
                         </Row>
@@ -40,12 +47,12 @@ export default class Detail extends Component {
                     </Col>
                 </Row>
                 <Row>
-                    <Col span={24} className='detailStyle'>
+                    <Col xs={{ span: 16 }} sm={{ span: 19 }} md={{ span: 24 }} lg={{ span: 24 }} className='detailStyle'>
                         <Row id='experience'>
                             <h3 className="experience">Experience</h3>
                         </Row>
                         <Row>
-                            <Card style={card1} headStyle={{ fontWeight: '600' }} title='Nineleaps Technology Pvt Ltd' extra='Software developer'>
+                            <Card style={cardFinalStyle} headStyle={{ fontWeight: '600' }} title='Nineleaps Technology Pvt Ltd' extra='Software developer'>
                                 <Row>
                                     <span className='duration'> Jun 2019 - Present </span>
                                 </Row>
@@ -62,7 +69,7 @@ export default class Detail extends Component {
                             </Card>
                         </Row>
                         <Row>
-                            <Card style={card1} headStyle={{ fontWeight: '600' }} title='Nineleaps Technology Pvt Ltd' extra='Software developer Trainee'>
+                            <Card style={cardFinalStyle} headStyle={{ fontWeight: '600' }} title='Nineleaps Technology Pvt Ltd' extra='Software developer Trainee'>
                                 <Row>
                                     <span className='duration'> Oct 2018 - May
 2019 </span>
@@ -84,7 +91,7 @@ export default class Detail extends Component {
                             <h3 className="experience">Projects</h3>
                         </Row>
                         <Row>
-                            <Card style={card1} headStyle={{ fontWeight: '600' }} title='Spry' extra='Front-End developer'>
+                            <Card style={cardFinalStyle} headStyle={{ fontWeight: '600' }} title='Spry' extra='Front-End developer'>
                                 <Row>
                                     <span className='duration'> Sep 2020 - Present </span>
                                 </Row>
@@ -101,7 +108,7 @@ export default class Detail extends Component {
                             </Card>
                         </Row>
                         <Row>
-                            <Card style={card1} headStyle={{ fontWeight: '600' }} title='APNA-IAS' extra='Front-End developer'>
+                            <Card style={cardFinalStyle} headStyle={{ fontWeight: '600' }} title='APNA-IAS' extra='Front-End developer'>
                                 <Row>
                                     <span className='duration'> Jan 2020 - Aug 2020 </span>
                                 </Row>
@@ -122,7 +129,7 @@ export default class Detail extends Component {
                             </Card>
                         </Row>
                         <Row>
-                            <Card style={card1} headStyle={{ fontWeight: '600' }} title='CMS-MemberSuite' extra='Front-End developer'>
+                            <Card style={cardFinalStyle} headStyle={{ fontWeight: '600' }} title='CMS-MemberSuite' extra='Front-End developer'>
                                 <Row>
                                     <span className='duration'> July 2019 - Dec 2020 </span>
                                 </Row>
@@ -143,7 +150,7 @@ plugins are developed with the help of GrapesJs.</li>
                             </Card>
                         </Row>
                         <Row>
-                            <Card style={card1} headStyle={{ fontWeight: '600' }} title='Mirable Health Care' extra='Front-End developer'>
+                            <Card style={cardFinalStyle} headStyle={{ fontWeight: '600' }} title='Mirable Health Care' extra='Front-End developer'>
                                 <Row>
                                     <span className='duration'> Feb 2019 - Jun 2019 </span>
                                 </Row>
@@ -162,7 +169,7 @@ plugins are developed with the help of GrapesJs.</li>
                     </Col>
                 </Row>
                 <Row>
-                    <Col span={24}>
+                    <Col xs={{ span: 16 }} sm={{ span: 19 }} md={{ span: 24 }} lg={{ span: 24 }}>
                         <Row id='skill'>
                             <h3 className="skill">Skills</h3>
                         </Row>
@@ -290,7 +297,7 @@ plugins are developed with the help of GrapesJs.</li>
                     </Col>
                 </Row>
                 <Row>
-                    <Col span={24}>
+                    <Col xs={{ span: 16 }} sm={{ span: 19 }} md={{ span: 24 }} lg={{ span: 24 }}>
                         <Row id='award'>
                             <h3 className="skill">Awards</h3>
                         </Row>
@@ -324,7 +331,7 @@ the study as well as sports.</Row>
                     </Col>
                 </Row>
                 <Row>
-                    <Col span={24}>
+                    <Col xs={{ span: 16 }} sm={{ span: 19 }} md={{ span: 24 }} lg={{ span: 24 }}>
                         <Row id='education'>
                             <h3 className="skill">Education</h3>
                         </Row>
@@ -362,7 +369,7 @@ Engineering)</Row>
                     </Col>
                 </Row>
                 <Row>
-                    <Col span={24}>
+                    <Col xs={{ span: 16 }} sm={{ span: 19 }} md={{ span: 24 }} lg={{ span: 24 }}>
                         <Row id='contact'>
                             <h3 className="skill">Contact</h3>
                         </Row>

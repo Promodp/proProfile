@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import { Card, Row, Col } from 'antd';
 import Detail from './detail';
 import LeftCard from './leftCard';
+import DrawerComponent from './Drawer';
+
 import './home.css';
 export default class Home extends Component {
     constructor(props) {
@@ -25,19 +27,22 @@ export default class Home extends Component {
         return (
             <div className='home'>
                 <Row className='home-card'>
-                    <Col span={1}>
+                    <Col xs={{ span: 0 }} sm={{ span: 0 }} md={{ span: 1 }} lg={{ span: 1 }}>
                     </Col>
-                    <Col span={22}>
+                    <Col xs={{ span: 22 }} sm={{ span: 1 }} md={{ span: 22 }} lg={{ span: 22 }}>
                         <Card style={cardStyle}>
                             <Row>
-                                <Col span={23}>
+                                <Col xs={{ span: 23 }} sm={{ span: 23 }} md={{ span: 23 }} lg={{ span: 23 }}>
                                     <Row>
-                                        <Col span={8}>
+                                        <Col xs={{ span: 0 }} sm={{ span: 0 }} md={{ span: 8 }} lg={{ span: 8 }}>
                                             <LeftCard />
                                         </Col>
-                                        <Col span={1}>
+                                        <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 0 }} lg={{ span: 0 }}>
+                                            <DrawerComponent />
                                         </Col>
-                                        <Col span={15}>
+                                        <Col xs={{ span: 0 }} sm={{ span: 0 }} md={{ span: 1 }} lg={{ span: 1 }}>
+                                        </Col>
+                                        <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 15 }} lg={{ span: 15 }}>
                                             <Detail />
                                         </Col>
                                     </Row>
